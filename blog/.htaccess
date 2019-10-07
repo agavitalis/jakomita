@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^category/([a-zA-Z0-9\-]+)/?$ category.php?cat_id=$1  [NC,L]
+RewriteRule ^more/([a-zA-Z0-9\-]+)/?$ more.php?cat_id=$1  [NC,L]
+
+RewriteRule ^category/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/?$ category.php?cat_id=$1&next_page=$2  [NC,L]
+RewriteRule ^more/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/?$ more.php?cat_id=$1&next_page=$2  [NC,L]
+RewriteRule ^post/([a-zA-Z0-9\-]+)/?$ post.php?post_name=$1  [NC,L]

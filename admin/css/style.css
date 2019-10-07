@@ -1,0 +1,39 @@
+header,main,footer{
+	padding-left: 250px;
+}
+main{
+	min-height: 550px;
+}
+.borderbottom{
+	border-bottom: 3px solid #eee;
+}
+ .signin{
+        width: 50%;
+        margin:0 auto;
+        border: 2px solid #eee;
+        padding:20px;
+        margin-top: 50px;
+      }
+
+.marginner{
+	margin-left:34%;
+}
+.side-nav{
+	width: 250px;
+}
+
+#uploadImg{
+  display: none !important;
+}
+
+@media only screen and (max-width:992px){
+header,main,footer{
+padding-left: 0;
+}
+ .signin{
+        width: 90%;
+      }
+.marginner{
+	margin-left: 0;
+}
+}

@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+RewriteRule ^category/([a-zA-Z0-9\-]+)/?$ category.php?cat_id=$1  [NC,L]
+
+RewriteRule ^forum-thread/([a-zA-Z0-9\-]+)/?$ forum-thread.php?post_name=$1  [NC,L]
+RewriteRule ^forum-thread/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/?$ forum-thread.php?post_name=$1&next_page=$2  [NC,L]
+RewriteRule ^category/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/?$ category.php?cat_id=$1&next_page=$2  [NC,L]
+RewriteRule ^post/([a-zA-Z0-9\-]+)/?$ post.php?cat_id=$1  [NC,L]
+RewriteRule ^edit-post/([a-zA-Z0-9\-]+)/?$ edit-post.php?topic_id=$1  [NC,L]
+RewriteRule ^users/([a-zA-Z0-9\-]+)/?$ profile.php?user_id=$1  [NC,L]
+RewriteRule ^latest/([a-zA-Z0-9\-]+)/?$ latest.php?page_number=$1  [NC,L]
+
