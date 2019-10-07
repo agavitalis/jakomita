@@ -1,7 +1,7 @@
 <?php session_start();
   $user_username = @$_SESSION['user_username'];
-$conn = mysqli_connect("localhost","root","","jakomita");
-  
+  $conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
  ?>
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
