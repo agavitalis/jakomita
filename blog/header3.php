@@ -1,6 +1,7 @@
 <?php 
 
- $conn = mysqli_connect("localhost","root","","jakomita");
+$conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
  ?>
 <!DOCTYPE html>
 <html class="">
@@ -60,7 +61,7 @@
 		<div class="top-header container-fluid no-padding">
 			<div class="container">
 				<div class="topheader-left">
-					<a href="tel:+5198759822" title="5198759822"><i class="fa fa-mobile" aria-hidden="true"></i>+234 459 900 44 </a>
+					<a href="tel:+5198759822" title="5198759822"><i class="fa fa-mobile" aria-hidden="true"></i>+2348163922749 </a>
 					<a href="mailto:Support@info.com" title="Support@info.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@jakomita.com</a>
 				</div>
 				<div class="topheader-right">

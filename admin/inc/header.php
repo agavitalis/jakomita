@@ -1,6 +1,7 @@
 <?php 
   $admin_username = $_SESSION['admin_username'];
-$conn = mysqli_connect("localhost","root","","jakomita");
+  $conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
   $checkuser_role = mysqli_query($conn,"SELECT * from users where `username` = '$admin_username' ");
   $row = mysqli_fetch_array($checkuser_role);
   $bio = $row['bio'];

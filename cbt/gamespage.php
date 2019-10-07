@@ -1,6 +1,6 @@
 <?php 
-$conn = mysqli_connect("localhost","root","","jakomita");
-
+$conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
 
 if (isset($_POST['gamemode'])) {
 	$questionid = $_POST['selected_question_id'];

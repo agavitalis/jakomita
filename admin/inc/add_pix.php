@@ -3,7 +3,8 @@ sleep(3);
 session_start();
 $admin_username = $_SESSION['admin_username'];
 $number = count($_FILES['attachment']['name']);
-$conn = mysqli_connect("localhost","root","","jakomita");
+$conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
 	if (count($_FILES['attachment'])> 0) {
 			for ($pixnum=0; $pixnum < count($_FILES['attachment']['name']) ; $pixnum++) { 
 				$tmp_name = $_FILES['attachment']['tmp_name'][$pixnum];

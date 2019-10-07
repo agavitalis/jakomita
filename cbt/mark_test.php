@@ -4,7 +4,8 @@ $username = @$_SESSION['user_username'];
 $cat_name = @$_POST['cat_name'];
 $subject = @$_POST['subject'];
 $mode = @$_POST['mode'];
-$conn = mysqli_connect("localhost", "root", "", "jakomita");
+$conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
 
 if ($mode != 'game') {
     $get_questions = mysqli_query($conn, " SELECT * FROM cbt_selected_questions WHERE `question_category`= '$cat_name' AND `question_subject_name` = '$subject' AND `username` = '$username'");

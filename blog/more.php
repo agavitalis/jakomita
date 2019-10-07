@@ -4,7 +4,8 @@ if ($page_num == '') {
 }else{
   $next_page = ($page_num *6) - 6;
 }
- $conn = mysqli_connect("localhost","root","","jakomita");
+$conn = mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be7502081e1fd6","6e9984ad","heroku_8c2e9da35585d79");
+ 
 
 ?>
 	<!-- PageBanner -->
