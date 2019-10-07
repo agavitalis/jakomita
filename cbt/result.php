@@ -39,7 +39,7 @@ $row = mysqli_fetch_assoc($result);
             </div>
             <h1>Awesome <?php echo ucwords($row['user_name']); ?></h1>
             <p>Thanks for taking
-                <?php echo ucwords($row['category']). " " . ucwords($row['subject'])." Exam" ; ?></p>
+                <?php echo ucwords($row['category']). "Quiz" ; ?></p>
             <p>Your score is</p>
             <div class="col col-md-6 col-md-offset-3">
                 <div class="table-responsive">
