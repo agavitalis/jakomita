@@ -76,7 +76,7 @@ $a = @$_SERVER['HTTP_REFERER'];
     window.location = "<?php if (!isset($a)) {
       echo("./");
     }else{
-      echo($a);
+      echo("./");
     } ?>";
   }
 </script>
