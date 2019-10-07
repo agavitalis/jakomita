@@ -10,14 +10,14 @@
   <div class="container coursesdetail-section">
     <div class="section-header">
       <hr>
-      <h3>You are about to write<span> <?php echo ucwords($cat_name). " ".ucwords($subject) ;?></span>  Exam</h3>
+      <h3>You are about to write<span> <?php echo ucwords($cat_name). "," ;?></span>  Quiz</h3>
     </div>
       <div class="row">
         <div class="col-md-9 col-sm-8 event-contentarea">
           <div class="coursesdetail-block">
             <!-- <img src="../images/event-coursesdetail.jpg" alt="event-coursesdetail" width="860" height="300"/> -->
             <div class="course-description">
-              <h3 class="course-title">Courses Description</h3>
+              <h3 class="course-title">Course Description</h3>
               <p><?php echo($cbt_description);?></p>
             </div>
         </div>
