@@ -243,7 +243,7 @@
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
 	-o-transition: all 1s ease 0s;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .welcome-title{
 	position: absolute;
