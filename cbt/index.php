@@ -31,7 +31,7 @@
 			 ?>
 			<div class="col-md-3 col-sm-6 col-xs-6">
 				<div class="welcome-box">
-					<img src="<?php echo($picturename); ?>" alt="Category Picture" width="250" height="250"/>
+					<img src="<?php echo($picturename); ?>" alt="Category Picture" width="250" height="300"/>
 					<div class="welcome-title">
 						<h3><?php echo(ucwords($categoryname)); ?></h3>
 					</div>	
