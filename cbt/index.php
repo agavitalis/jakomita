@@ -47,7 +47,8 @@
 							<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 							<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 						</ul>
-						<a href="cbt-available?cat=<?php echo(strtolower($categoryname)); ?>">Start Test</a>
+						<!-- <a href="cbt-available?cat=<?php //echo(strtolower($categoryname)); ?>">Start Test</a> -->
+						<a href="#">Quiz Over</a>
 					</div>
 				</div>
 			</div>
